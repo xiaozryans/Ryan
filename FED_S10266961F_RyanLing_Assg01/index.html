@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sheinbao - Homepage</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Sheinbao</a>
+      <ul class="nav-links">
+        <li><a href="men.html">Men</a></li>
+        <li><a href="women.html">Women</a></li>
+        <li><a href="accessories.html">Accessories</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <section id="banner">
+    <h1>Welcome to Sheinbao</h1>
+    <p>Trendy and affordable fashion for everyone.</p>
+    <button onclick="window.location.href='women.html'">Shop Women's Fashion</button>
+  </section>
+
+  <!-- Add Scroll to Top Button -->
+<button id="scroll-top" style="display: none;">Top</button>
+
+  <!-- Add Search Bar to Homepage -->
+<section id="search">
+    <input type="text" id="search-bar" placeholder="Search for products..." />
+  </section>  
+
+  <!-- Featured Products -->
+  <section id="featured-products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="images/product1.jpg" alt="Product 1">
+        <h3>Stylish Jacket</h3>
+        <p>$49.99</p>
+      </div>
+      <div class="product">
+        <img src="images/product2.jpg" alt="Product 2">
+        <h3>Classic Sneakers</h3>
+        <p>$59.99</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js" defer></script>
+
+</body>
+</html>
